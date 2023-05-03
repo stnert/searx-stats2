@@ -1,1 +1,2 @@
 httpobs @ git+https://github.com/dalf/http-observatory@master#egg=httpobs
+flask>=2.2.5 # not directly required, pinned by Snyk to avoid a vulnerability
