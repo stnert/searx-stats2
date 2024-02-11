@@ -2,7 +2,7 @@ pyOpenSSL==19.1.0
 httpx==0.11.0
 brotlipy==0.7.0
 uvloop==0.14.0
-dnspython==1.16.0
+dnspython==2.6.0rc1
 ipwhois==1.1.0
 lxml==4.6.5
 selenium==3.141.0
