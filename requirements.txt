@@ -9,8 +9,13 @@ selenium==3.141.0
 pyyaml==5.4
 GitPython==3.1.7
 httpobs @ git+https://github.com/dalf/http-observatory@master#egg=httpobs
-requests==2.24.0
+requests==2.31.0
 beautifulsoup4==4.6.3
 publicsuffixlist==0.6.2
-psutil==5.6.6
-celery==4.2.1
+psutil==5.6.7
+celery==5.2.2
+flask>=2.2.5 # not directly required, pinned by Snyk to avoid a vulnerability
+redis>=4.3.6 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+uwsgi>=2.0.22 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
