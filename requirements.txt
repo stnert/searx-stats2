@@ -1,5 +1,5 @@
 pyOpenSSL==19.1.0
-httpx==0.11.0
+httpx==0.23.0
 brotlipy==0.7.0
 uvloop==0.14.0
 dnspython==1.16.0
@@ -7,10 +7,11 @@ ipwhois==1.1.0
 lxml==4.6.5
 selenium==3.141.0
 pyyaml==5.4
-GitPython==3.1.7
+GitPython==3.1.41
 httpobs @ git+https://github.com/dalf/http-observatory@master#egg=httpobs
 requests==2.24.0
 beautifulsoup4==4.6.3
 publicsuffixlist==0.6.2
 psutil==5.6.6
 celery==4.2.1
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
